@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Hero Section */
+#home {
+  background: linear-gradient(135deg, #4fc142, #6610f2);
+  color: #fff;
+  padding: 100px 0;
+}
+
+#home h1 {
+  font-size: 3rem;
+}
+
+#home .btn {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+}
+
+/* About Section */
+#about img {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+/* Skills Section */
+.progress-bar {
+  font-weight: 500;
+}
+
+/* Portfolio Cards */
+.card {
+  max-width: 350px;
+  margin-bottom: 100px;
+  transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  
+}
+
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Resume Section */
+#resume .btn {
+  font-size: 1.1rem;
+}
+
+
+/* Contact Form */
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
